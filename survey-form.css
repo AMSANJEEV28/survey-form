@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap");
+html {
+  border: 10px double white;
+}
+body {
+  display: table;
+  margin: auto;
+  background-color: #acb7ae;
+}
+#cover {
+  background-color: #c2b490;
+  padding: 50px 80px 80px 80px;
+  margin: 50px;
+  border: 1px solid white;
+  border-radius: 5px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+#title {
+  font-weight: 25px;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 0px;
+  color: rgb(6, 11, 77);
+  font-family: "Patrick Hand", cursive;
+}
+#description {
+  text-align: center;
+  color: rgb(6, 11, 77);
+  font-size: larger;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 40px;
+}
+#name {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding: 5px;
+  font-size: 15px;
+  border-radius: 5px;
+  border-color: #c2b490;
+  width: 100%;
+  color: #4b4b4b;
+}
+#email {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding: 5px;
+  font-size: 15px;
+  border-radius: 5px;
+  border-color: #c2b490;
+  width: 100%;
+  color: #4b4b4b;
+}
+#age {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding: 5px;
+  font-size: 15px;
+  border-radius: 5px;
+  border-color: #c2b490;
+  width: 100%;
+  color: #4b4b4b;
+}
+#select {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding: 5px;
+  font-size: 15px;
+  border-radius: 5px;
+  border-color: #c2b490;
+  width: 102%;
+  color: #4b4b4b;
+}
+#gender {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding: 5px;
+  font-size: 15px;
+  border-radius: 5px;
+  border-color: #c2b490;
+  width: 102%;
+  color: #4b4b4b;
+}
+#country {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding: 5px;
+  font-size: 15px;
+  border-radius: 5px;
+  border-color: #c2b490;
+  width: 102%;
+  color: #4b4b4b;
+}
+#number {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding: 5px;
+  font-size: 15px;
+  border-radius: 5px;
+  border-color: #c2b490;
+  width: 100%;
+  color: #4b4b4b;
+}
+#personality-heading {
+  font-size: 25px;
+  text-decoration: underline;
+}
+#personality-description {
+  font-size: 20px;
+  font-style: italic;
+}
+th,
+td {
+  padding: 10px;
+}
+td {
+  font-weight: 500;
+}
+input[type="radio"] {
+  width: 100%;
+  height: 1.5em;
+}
+table {
+  margin-bottom: 20px;
+}
+#anything {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding-top: 10px;
+  padding-left: 10px;
+  font-size: 20px;
+  vertical-align: text-top;
+  border-radius: 5px;
+  border-color: #c2b490;
+  width: 100%;
+  height: 100px;
+  color: #4b4b4b;
+}
+label {
+  font-size: 20px;
+  font-weight: 500;
+  color: #000000;
+}
+#selected-dropdown {
+  display: none;
+}
+#submit {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding: 5px;
+  font-size: 20px;
+  border-radius: 5px;
+  border-color: #c2b490;
+  width: 100%;
+  height: 40px;
+  color: #3a3838;
+  background-color: rgb(185, 240, 208);
+}
+#submit:focus {
+  background-color: rgb(233, 255, 237);
+}
+@media (max-width: 800px) {
+  html {
+    border: none;
+  }
+  #cover {
+    width: 500px;
+  }
+  table {
+    width: 500px;
+  }
+}
